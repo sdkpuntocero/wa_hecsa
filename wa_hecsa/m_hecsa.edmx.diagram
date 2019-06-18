@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a7a52e026a5c40cf9d0bc51f9ed45bf1" Name="Diagram1">
+        <EntityTypeShape EntityType="db_hecsaModel.fact_alergia" Width="1.5" PointX="3" PointY="8.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_area" Width="1.5" PointX="6" PointY="5.125" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_banco" Width="1.5" PointX="6" PointY="28.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_centro_tipo" Width="1.5" PointX="3.75" PointY="27.875" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_clte_cont_tipo" Width="1.5" PointX="11.25" PointY="32.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_clte" Width="1.5" PointX="6" PointY="42.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_cnt" Width="1.5" PointX="3.75" PointY="25.5" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_comp" Width="1.5" PointX="9" PointY="37.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_inv" Width="1.5" PointX="6.75" PointY="32" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_prov" Width="1.5" PointX="9" PointY="31.875" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_usr" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_est_vnta" Width="1.5" PointX="9" PointY="34.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_estcivil" Width="1.5" PointX="3" PointY="18.125" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_genero" Width="1.5" PointX="3" PointY="5.875" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_grado_escolar" Width="1.5" PointX="6.75" PointY="39.375" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_nivel_escolar" Width="1.5" PointX="4.5" PointY="39.5" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_perfil" Width="1.5" PointX="6" PointY="1.875" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_rfc_tipo" Width="1.5" PointX="9" PointY="6.5" />
+        <EntityTypeShape EntityType="db_hecsaModel.fact_tipo_escolar" Width="1.5" PointX="3" PointY="30.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_centro" Width="1.5" PointX="6" PointY="23.125" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_centro_ctrl" Width="1.5" PointX="8.25" PointY="13.5" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_clte" Width="1.5" PointX="8.25" PointY="26.25" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_clte_contacto" Width="1.5" PointX="13.5" PointY="27.5" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_comp" Width="1.5" PointX="11.25" PointY="27.875" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_email_env" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_emp" Width="1.5" PointX="3.75" PointY="21.625" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_inv" Width="1.5" PointX="9" PointY="21.375" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_prov_contacto" Width="1.5" PointX="13.5" PointY="18.875" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_proveedor" Width="1.5" PointX="11.25" PointY="18.125" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usr_bancario" Width="1.5" PointX="8.25" PointY="16.25" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usr_contacto" Width="1.5" PointX="5.25" PointY="34.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usr_escolar" Width="1.5" PointX="5.25" PointY="18.25" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usr_medicos" Width="1.5" PointX="5.25" PointY="8" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usr_personales" Width="1.5" PointX="5.25" PointY="12.375" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usr_rh" Width="1.5" PointX="8.25" PointY="9" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_usuario" Width="1.5" PointX="3" PointY="12.5" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_vnta" Width="1.5" PointX="11.25" PointY="24" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_vnta_inv" Width="1.5" PointX="13.5" PointY="24.375" />
+        <EntityTypeShape EntityType="db_hecsaModel.inf_sepomex" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="db_hecsaModel.v_rpt_remision" Width="1.5" PointX="10.75" PointY="9.75" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_medicos_fact_alergia" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_rh_fact_area" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_bancario_fact_banco" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_centro_fact_centro_tipo" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_clte_contacto_fact_clte_cont_tipo" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_clte_fact_est_clte" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_centro_fact_est_cnt" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_comp_fact_est_comp" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_inv_fact_est_inv" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_proveedor_fact_est_prov" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usuario_fact_est_usr" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_vnta_fact_est_vnta" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_personales_fact_estcivil" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_personales_fact_genero" />
+        <AssociationConnector Association="db_hecsaModel.FK_fact_grado_escolar_fact_nivel_escolar" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_inv_fact_grado_escolar" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_rh_fact_perfil" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_proveedor_fact_rfc_tipo" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_escolar_fact_tipo_escolar" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_centro_ctrl_inf_centro" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_centro_inf_emp" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_clte_inf_centro" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_comp_inf_centro" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_proveedor_inf_centro" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_vnta_inf_centro" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_centro_ctrl_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_clte_contacto_inf_clte" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_inv_inf_emp" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_prov_contacto_inf_proveedor" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_bancario_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_contacto_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_escolar_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_medicos_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_personales_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_usr_rh_inf_usuario" />
+        <AssociationConnector Association="db_hecsaModel.FK_inf_vnta_inv_inf_vnta" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
